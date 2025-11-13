@@ -56,3 +56,21 @@ if __name__ == "__main__":
 	print(crypted_message)
 	initial_message = vigenere_cipher(text=crypted_message, password="Azerty12345!", cipher=False)
 	print(initial_message)
+	
+
+
+
+
+
+import PIL
+
+from PIL import Image
+
+image_path = "image_stegano.jpeg"
+
+img = Image.open(image_path)
+
+#def        
+#img = img.
+
+img.show()
